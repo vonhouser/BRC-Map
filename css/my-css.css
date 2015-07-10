@@ -1,0 +1,25 @@
+
+<!--
+.navbar {
+    margin-bottom: 0;
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+-->
+
+
+.myCarousel {
+  height: 400px !important;
+}
+
+
+.carouselimage {
+    height: 400px !important;
+    width: auto;
+    margin:auto;
+}
+
