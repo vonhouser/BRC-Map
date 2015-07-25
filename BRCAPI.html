@@ -8,6 +8,8 @@ src="http://maps.googleapis.com/maps/api/js">
 <script>
 
 var BRCCenter=new google.maps.LatLng(39.255393,-76.622314);
+    
+//All the markers and buoys
 var DayMarkFerry= new google.maps.LatLng(39.255443,-76.610253);
 var BridgeSpanMarker= new google.maps.LatLng(39.256728,-76.613240);
 var GreenDay= new google.maps.LatLng(39.255187,-76.611116);
@@ -15,7 +17,20 @@ var Boathouse= new google.maps.LatLng(39.255393,-76.622314);
 var GreenBldgTurn= new google.maps.LatLng(39.261408,-76.620082);
 var GlassBeach1= new google.maps.LatLng(39.263966,-76.626970);
 var GlassBeach2= new google.maps.LatLng(39.260046,-76.628665);
+ 
     
+//All the polylines
+var x=new google.maps.LatLng(39.255393,-76.622314);
+var boathouse=new google.maps.LatLng(39.255383,-76.622314);
+var greenroof=new google.maps.LatLng(39.261408,-76.620082);
+var glassone=new google.maps.LatLng(39.263966,-76.626970);
+var glasstwo=new google.maps.LatLng(39.260046,-76.628665);
+var marina=new google.maps.LatLng(39.257919,-76.621369);
+var piers=new google.maps.LatLng(39.255792,-76.614267);
+var harborhosp=new google.maps.LatLng(39.252839,-76.611630);
+var ferrybar=new google.maps.LatLng(39.254629,-76.609525);
+var insidebridge=new google.maps.LatLng(39.259796,-76.616584);    
+
 
 function initialize() 
     {
@@ -26,48 +41,54 @@ function initialize()
   };
         
   var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        
+var myTrip=[boathouse,greenroof,glassone, glasstwo, marina, piers, harborhosp, ferrybar, insidebridge, greenroof];
+var flightPath=new google.maps.Polyline({
+  path:myTrip,
+  strokeColor:"#0000FF",
+  strokeOpacity:0.8,
+  strokeWeight:2
+  });
+
+
+
 
 var marker=new google.maps.Marker({
-  position:DayMarkFerry,
-    
+  position:DayMarkFerry, 
   });
 marker.setMap(map);
     
 var marker=new google.maps.Marker({
-  position:BridgeSpanMarker,
-    
+  position:BridgeSpanMarker, 
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
-  position:GreenDay,
-    
+  position:GreenDay, 
   });
 marker.setMap(map); 
         
 var marker=new google.maps.Marker({
   position:Boathouse,
-    
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
-  position:GreenBldgTurn,
-    
+  position:GreenBldgTurn, 
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
   position:GlassBeach1,
-    
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
-  position:GlassBeach2,
-    
+  position:GlassBeach2,   
   });
 marker.setMap(map);
+
+flightPath.setMap(map);
         
         
         
