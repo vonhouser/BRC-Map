@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+
+var BRCCenter=new google.maps.LatLng(39.255393,-76.622314);
+var DayMarkFerry= new google.maps.LatLng(39.255443,-76.610253);
+var BridgeSpanMarker= new google.maps.LatLng(39.256728,-76.613240);
+var GreenDay= new google.maps.LatLng(39.255187,-76.611116);
+var Boathouse= new google.maps.LatLng(39.255393,-76.622314);
+var GreenBldgTurn= new google.maps.LatLng(39.261408,-76.620082);
+var GlassBeach1= new google.maps.LatLng(39.263966,-76.626970);
+var GlassBeach2= new google.maps.LatLng(39.260046,-76.628665);
+    
+
+function initialize() 
+    {
+  var mapProp = {
+    center:BRCCenter,
+    zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+        
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+var marker=new google.maps.Marker({
+  position:DayMarkFerry,
+    
+  });
+marker.setMap(map);
+    
+var marker=new google.maps.Marker({
+  position:BridgeSpanMarker,
+    
+  });
+marker.setMap(map);
+        
+var marker=new google.maps.Marker({
+  position:GreenDay,
+    
+  });
+marker.setMap(map); 
+        
+var marker=new google.maps.Marker({
+  position:Boathouse,
+    
+  });
+marker.setMap(map);
+        
+var marker=new google.maps.Marker({
+  position:GreenBldgTurn,
+    
+  });
+marker.setMap(map);
+        
+var marker=new google.maps.Marker({
+  position:GlassBeach1,
+    
+  });
+marker.setMap(map);
+        
+var marker=new google.maps.Marker({
+  position:GlassBeach2,
+    
+  });
+marker.setMap(map);
+        
+        
+        
+}
+    
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:100%;height:480px;"></div>
+
+</body>
+</html>
