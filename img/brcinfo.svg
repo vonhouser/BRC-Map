@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-561 347 100 100" style="enable-background:new -561 347 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{enable-background:new    ;}
+	.st3{display:inline;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;}
+	.st5{display:inline;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st6{fill:#EFB21B;}
+</style>
+<g class="st0">
+	<rect x="-753" y="347" class="st1" width="185" height="99"/>
+	<rect x="-561" y="311" class="st1" width="100" height="30"/>
+	<text transform="matrix(1 0 0 1 -495 327.5)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">http://thenounproject.com</text>
+	<text transform="matrix(1 0 0 1 -553.834 322.5)" class="st1" style="font-family:'Helvetica-Bold'; font-size:6.1578px;">The Noun Project</text>
+	<text transform="matrix(1 0 0 1 -552.714 327.3)" class="st1" style="font-family:'Helvetica-Bold'; font-size:4px;">Icon Template</text>
+	<text transform="matrix(1 0 0 1 -739.5 357.5)" class="st1" style="font-family:'Helvetica-Bold'; font-size:6.1578px;">Reminders</text>
+	<line class="st3" x1="-553" y1="332.5" x2="-543" y2="332.5"/>
+	<line class="st3" x1="-740" y1="363.5" x2="-723" y2="363.5"/>
+	<g class="st1">
+		<g>
+			<g>
+				<rect x="-731.8" y="378.3" width="8.7" height="8.6"/>
+				<path d="M-725.5,389.3h4.7v-4.7h-4.7V389.3z M-720.3,389.7h-5.6v-5.6h5.6V389.7L-720.3,389.7z M-727.2,391.1h8.3v-8.2h-8.3
+					V391.1L-727.2,391.1z M-718.5,391.5h-9.2v-9.1h9.2V391.5L-718.5,391.5z"/>
+				<polygon points="-727.1,391.1 -727.3,391 -719,382.8 -718.9,382.9 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="-740" y="405" class="st4" width="35" height="32.5"/>
+	<text transform="matrix(1 0 0 1 -740 407.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:3px;">Strokes</text>
+	<text transform="matrix(1 0 0 1 -740 412.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Try to keep strokes at 4px</text>
+	<text transform="matrix(1 0 0 1 -740 417.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Minimum stroke weight is 2px</text>
+	<text transform="matrix(1 0 0 1 -740 421.6299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">For thicker strokes use even </text>
+	<text transform="matrix(1 0 0 1 -740 424.6299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">numbers: 6px, 8px etc.</text>
+	<text transform="matrix(1 0 0 1 -740 429.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:2.4px;">Remember to expand strokes </text>
+	<text transform="matrix(1 0 0 1 -740 432.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:2.4px;">before saving as an SVG </text>
+	<rect x="-697.5" y="405" class="st4" width="35" height="32.5"/>
+	<text transform="matrix(1 0 0 1 -697.5 407.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:3px;">Size</text>
+	<text transform="matrix(1 0 0 1 -697.5 412.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Cannot be wider or taller than </text>
+	<text transform="matrix(1 0 0 1 -697.5 415.6299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">100px (artboard size)</text>
+	<text transform="matrix(1 0 0 1 -697.5 420.6299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Scale your icon to fill as much of </text>
+	<text transform="matrix(1 0 0 1 -697.5 423.6299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">the artboard as possible</text>
+	<rect x="-655" y="405" class="st4" width="35" height="32.5"/>
+	<text transform="matrix(1 0 0 1 -655 407.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:3px;">Ungroup</text>
+	<text transform="matrix(1 0 0 1 -655 412.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">If your design has more than one </text>
+	<text transform="matrix(1 0 0 1 -655 415.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">shape, make sure to ungroup</text>
+	<rect x="-611" y="405" class="st4" width="35" height="32.5"/>
+	<text transform="matrix(1 0 0 1 -611 407.1299)" class="st1" style="font-family:'Helvetica-Bold'; font-size:3px;">Save as</text>
+	<text transform="matrix(1 0 0 1 -611 412.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Save as .SVG and make sure “Use </text>
+	<text transform="matrix(1 0 0 1 -611 415.1299)" class="st1" style="font-family:'Helvetica'; font-size:2.4px;">Artboards” is checked</text>
+	<text transform="matrix(1.0074 0 0 1 -686.542 377.5933)" class="st1" style="font-family:'Helvetica'; font-size:2.5731px;">100px</text>
+	<text transform="matrix(1.0074 0 0 1 -602 386)" class="st1" style="font-family:'Helvetica-Bold'; font-size:5.1462px;">.SVG</text>
+	<rect x="-687.5" y="381.8" class="st1" width="10.3" height="10.2"/>
+	<rect x="-687.5" y="378.8" class="st1" width="0.5" height="2.3"/>
+	<rect x="-677.8" y="378.8" class="st1" width="0.5" height="2.3"/>
+	<rect x="-688" y="379.3" class="st1" width="11.2" height="0.6"/>
+	<g class="st1">
+		<rect x="-644.8" y="380.8" width="10.3" height="10.2"/>
+		<rect x="-637.8" y="375.7" width="3.3" height="3.3"/>
+	</g>
+	<rect x="-739.5" y="369.5" class="st5" width="30" height="30"/>
+	<rect x="-697.5" y="369.5" class="st5" width="30" height="30"/>
+	<rect x="-654.5" y="369.5" class="st5" width="30" height="30"/>
+	<rect x="-610.5" y="369.5" class="st5" width="30" height="30"/>
+</g>
+<g class="st0">
+	<g class="st1">
+		<path d="M-543,399.9c-0.7,0-1.3-0.5-1.4-1.2c-0.1-0.8,0.4-1.5,1.1-1.6l63.5-11.6c0.8-0.1,1.5,0.4,1.6,1.1c0.1,0.8-0.4,1.5-1.1,1.6
+			l-63.5,11.6C-542.9,399.9-542.9,399.9-543,399.9z"/>
+	</g>
+	<g class="st1">
+		<path d="M-541.8,406.5c-0.7,0-1.3-0.5-1.4-1.2c-0.1-0.8,0.4-1.5,1.1-1.6l54.6-10c0.8-0.1,1.5,0.4,1.6,1.1c0.1,0.8-0.4,1.5-1.1,1.6
+			l-54.6,10C-541.6,406.5-541.7,406.5-541.8,406.5z"/>
+	</g>
+	<g class="st1">
+		<path d="M-540.6,413.2c-0.7,0-1.3-0.5-1.4-1.2c-0.1-0.8,0.4-1.5,1.1-1.6l44.6-8.1c0.8-0.1,1.5,0.4,1.6,1.1
+			c0.1,0.8-0.4,1.5-1.1,1.6l-44.6,8.1C-540.4,413.2-540.5,413.2-540.6,413.2z"/>
+	</g>
+	<g class="st1">
+		<path d="M-538.2,426.4c-0.7,0-1.3-0.5-1.4-1.2c-0.1-0.8,0.4-1.5,1.1-1.6l44.6-8.1c0.8-0.1,1.5,0.4,1.6,1.1
+			c0.1,0.8-0.4,1.5-1.1,1.6l-44.6,8.1C-538,426.4-538.1,426.4-538.2,426.4z"/>
+	</g>
+	<g class="st1">
+		<path d="M-539.4,419.7c-0.6,0-1.2-0.5-1.3-1.1c-0.1-0.7,0.4-1.5,1.1-1.6l59.1-10.8c0.7-0.1,1.5,0.4,1.6,1.1
+			c0.1,0.7-0.4,1.5-1.1,1.6l-59.1,10.8C-539.2,419.7-539.3,419.7-539.4,419.7z"/>
+	</g>
+	<path class="st1" d="M-462,418l1.3-1.2l-9.1-49.8c-1-5.4-5-9.4-9.4-9.4c-0.4,0-0.9,0-1.3,0.1l-29.1,5.3c0,0.1-0.1,0.2-0.1,0.3
+		l-6.6,11.2c-0.2,0.4-0.6,0.6-1,0.6c-0.2,0-0.3,0-0.5-0.1c-0.5-0.2-0.8-0.8-0.7-1.4l2.8-9.4l-38.1,7c-4.8,0.9-7.8,6.5-6.7,12.5
+		l9,49.2c1,5.5,5,9.4,9.4,9.4c0.4,0,0.9,0,1.3-0.1l65-11.9l0.3-0.1l12.9-11.6l0.7-0.1L-462,418z M-541,440.1
+		c-0.3,0.1-0.6,0.1-0.9,0.1c-3.4,0-6.6-3.3-7.4-7.7l-8.1-44.3l86.5-15.8l8,43.7l-0.2,0.2l-12,2.2c-1.3,0.2-2.5,1-3.3,2.2
+		c-0.3,0.5-0.7,1.2-0.6,2l1.1,6L-541,440.1z M-475.7,427.7l-1-5.4c0.1-0.3,0.8-1.3,1.9-1.5l8.3-1.5L-475.7,427.7z"/>
+	<path class="st1" d="M-505.4,356.5c-0.5-2.5-2.5-4.3-5-4.3c-0.3,0-0.6,0-0.9,0.1c-2.7,0.5-4.5,3.2-4,6c0.2,1.1,0.7,2.1,1.5,2.8
+		l-3.5,11.6c0,0.1,0,0.3,0.2,0.4c0,0,0.1,0,0.1,0c0.1,0,0.2-0.1,0.3-0.1l6.1-10.4c0.4,0,0.8,0,1.1-0.1
+		C-506.7,362-504.9,359.3-505.4,356.5z"/>
+</g>
+<g>
+	<path class="st6" d="M-510.7,347.3c-27.6,0-50,22.4-50,50c0,27.6,22.4,50,50,50s50-22.4,50-50
+		C-460.7,369.6-483.1,347.3-510.7,347.3z M-510.8,369.8c1.1-1.2,2.5-1.8,4.1-1.8c1.3,0,2.4,0.5,3.2,1.3c0.8,0.9,1.3,2,1.3,3.3
+		c0,1.6-0.6,3.1-1.7,4.3c-1.2,1.3-2.5,1.9-4,1.9c-1.2,0-2.4-0.5-3.2-1.4c-0.8-0.9-1.3-2-1.3-3.4C-512.4,372.5-511.9,371-510.8,369.8
+		z M-502.4,416.9c-4.1,3.9-7.1,6.3-9,7.4c-2.1,1.2-3.8,1.8-5.2,1.8c-1.4,0-2.6-0.5-3.5-1.4c-0.8-0.9-1.3-2.1-1.3-3.6
+		c0-3.8,2.2-12.7,6.6-27.2c0.1-0.2,0.1-0.5,0.2-0.7c-0.2,0.1-0.4,0.2-0.6,0.3c-0.4,0.2-1.5,1.1-4.7,4.3c-0.5,0.5-1.3,0.5-1.8,0.1
+		l-1.9-1.5c-0.3-0.2-0.5-0.6-0.5-1c0-0.4,0.1-0.8,0.4-1.1c3-3.3,5.8-5.7,8.3-7.1c2.6-1.5,4.9-2.2,6.8-2.2c1.3,0,2.3,0.3,3,0.9
+		c0.8,0.7,1.2,1.6,1.2,2.7c0,0.7-0.3,2.6-2.9,11.2c-3.6,12.2-4.5,16.7-4.6,18.2c0.7-0.4,2.3-1.6,5.8-4.8c0.5-0.5,1.4-0.5,1.9,0
+		l1.7,1.7c0.3,0.3,0.4,0.6,0.4,1C-502,416.3-502.2,416.7-502.4,416.9z"/>
+</g>
+<g class="st0">
+	<path class="st1" d="M-465.1,400.1c-3.7-6-9.3-10.2-16-12.1c0-0.4,0-0.8,0-1.2c0-19.1-17.9-34.7-40-34.7c-22.1,0-40,15.5-40,34.7
+		c0,9.8,4.7,18.7,12.3,25c-3.1,5.5-7.8,10-12.3,14.8c9.4,0.7,20.1-1.7,28.1-6.7c3.7,1,7.7,1.5,11.9,1.5c1.8,0,3.6-0.1,5.3-0.3
+		c0.7,2.8,1.8,5.5,3.3,8c3.9,6.3,10,10.7,17.2,12.5c2.1,0.5,4.3,0.8,6.5,0.8c12.9,0,24-8.8,27-21.3
+		C-460,413.8-461.2,406.4-465.1,400.1z M-532.5,369h3l-0.1,22h-2.7L-532.5,369z M-529,399h-3v-3h3V399z M-526.2,372.2
+		c0,0,2.6-2.4,6.8-2.4c4.8,0,8.7,3.1,8.7,7.5c0,7.1-7.4,7.6-7.4,13.3v0.4h-2v-0.5c0-6.8,6.7-7.7,6.7-13c0-2.7-2.6-4.9-5.9-4.9
+		c-2.9,0-5.3,1.8-5.3,1.8L-526.2,372.2z M-517,399h-4v-3h4V399z M-463.4,420.7c-2.8,11.8-13.3,20-25.4,20c-2,0-4.1-0.2-6.1-0.7
+		c-6.8-1.6-12.5-5.8-16.2-11.7c-3.6-5.9-4.8-12.9-3.1-19.7c2.8-11.8,13.2-20,25.4-20c2,0,4.1,0.2,6.1,0.7
+		c6.8,1.6,12.5,5.8,16.2,11.7C-462.9,406.9-461.7,413.9-463.4,420.7z"/>
+	<g class="st1">
+		<path d="M-490,409.3c-0.9,3.7-3.1,6.4-5,5.9c-1.9-0.4-2.6-3.8-1.8-7.6s3.1-6.4,5-5.9C-489.9,402.2-489.1,405.5-490,409.3z"/>
+	</g>
+	<g class="st1">
+		<ellipse transform="matrix(0.2326 -0.9726 0.9726 0.2326 -769.0663 -151.6967)" cx="-480.7" cy="411.5" rx="6.9" ry="3.5"/>
+	</g>
+	<g class="st1">
+		<path d="M-492.5,428.4c-6.3-1.5-11.3-6.2-15.4-10.2c2.1,5.4,7.5,11.6,15,13.4c8,1.9,16.1-1.6,20.3-5.9
+			C-478.4,427.9-485.6,430-492.5,428.4z"/>
+	</g>
+</g>
+<g class="st0">
+	<rect x="-538" y="389" class="st1" width="51" height="2"/>
+	<polygon class="st1" points="-536,425 -538,427 -487,427 -487,425 	"/>
+	<rect x="-518" y="401" class="st1" width="31" height="2"/>
+	<polygon class="st1" points="-524,413 -526,415 -487,415 -487,413 	"/>
+	<path class="st1" d="M-532.8,347.9l-0.1,0.9c0,0-1,7.6-1.3,10.2H-545v46.3l-7.3,7.1l2.7,2.7l15-14.7l1.8,1.8l-15,14.7l4,4.1
+		l15-14.6l1.8,1.8l-15,14.6l2.7,2.7l15-14.7c0.1,0,0.2,0,0.2,0c0.1,0,0.1,0,0.2,0c0.2-0.1,0.4-0.2,0.5-0.5l5.1-17
+		c0.1-0.2,0-0.5-0.2-0.6c-0.2-0.2-0.4-0.2-0.6-0.2l-17.5,4.2c-0.2,0.1-0.4,0.2-0.5,0.5c0,0.1,0,0.3,0,0.4l-5.8,5.6V361h50v10.8
+		c0,0.5,0.7,1.2,1.2,1.2h11.8v72h-63v-15.9l2.4-2.4l-12.9-13.2l-5.9,5.7c-1,1-1,2.5,0,3.5l9.4,9.6c1,1,2.5,1,3.5,0l1.4-1.4V447h67
+		v-4.9l3.5,0.4l8.6-88.1L-532.8,347.9z M-522,394.6c0.7,0.4,1.1,1,1.4,1.4l-3.9,12.9l-10.9-11.2L-522,394.6z M-491,371v-9.2l9.9,9.2
+		H-491z M-476.2,440.5l-1.8-0.3v-68.4c0,0,0-0.7-0.2-0.8l-13-11.9c-0.2-0.2-0.5-0.1-0.7-0.1h-40.2c0.2-1.1,0.5-3.6,1-9.1l63.1,6.2
+		L-476.2,440.5z"/>
+</g>
+</svg>

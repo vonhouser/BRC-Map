@@ -31,6 +31,8 @@ var harborhosp=new google.maps.LatLng(39.252839,-76.611630);
 var ferrybar=new google.maps.LatLng(39.254629,-76.609525);
 var insidebridge=new google.maps.LatLng(39.259796,-76.616584);    
 
+//icons for markers    
+
 
 function initialize() 
     {
@@ -51,15 +53,27 @@ var flightPath=new google.maps.Polyline({
   });
 
 
-
+var caution = new google.maps.MarkerImage ('img/caution.svg',
+    null, null, null,
+        new google.maps.Size(15,15)
+                                   );
 
 var marker=new google.maps.Marker({
-  position:DayMarkFerry, 
-  });
+  position:DayMarkFerry,
+  icon:caution,
+});
 marker.setMap(map);
     
+
+var info = new google.maps.MarkerImage ('img/brcinfo.svg',
+    null, null, null,
+        new google.maps.Size(15,15)
+                                   );
 var marker=new google.maps.Marker({
   position:BridgeSpanMarker, 
+    icon: info
+    
+
   });
 marker.setMap(map);
         
@@ -70,16 +84,19 @@ marker.setMap(map);
         
 var marker=new google.maps.Marker({
   position:Boathouse,
+    icon: info
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
   position:GreenBldgTurn, 
+  icon: info,
   });
 marker.setMap(map);
         
 var marker=new google.maps.Marker({
   position:GlassBeach1,
+  icon: info,
   });
 marker.setMap(map);
         
