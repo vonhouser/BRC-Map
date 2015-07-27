@@ -96,8 +96,6 @@ var info = new google.maps.MarkerImage ('img/brcinfo.svg',
 var marker=new google.maps.Marker({
   position:BridgeSpanMarker, 
     icon: info
-    
-
   });
 marker.setMap(map);
         
@@ -131,15 +129,66 @@ var marker=new google.maps.Marker({
 marker.setMap(map);
 
 flightPath.setMap(map);
-        
-var contentString = '<div id="infowindow">'+
-      '<h1>Beach to Bridge</h1>'+
+ 
+//set up Info Window for Green Building Turn
+var contentStringgbt = '<div id="infowindow">'+
+      '<h1>Allied Building to Glass Beach</h1>'+
       '<p>This is what you should see heading towards the bridge from glass beach, <img src="http://fuckingdataviz.com/BRC/img/HanoverSpan.jpg" class=large>'+
       '</div>';
 
 
 var infowindow = new google.maps.InfoWindow({
-      content: contentString,
+      content: contentStringgbt,
+    maxWidth: 400
+  });
+
+var marker = new google.maps.Marker({
+      position: GreenBldgTurn,
+      map: map,
+      icon: info,
+      info: contentStringgbt,
+      title: 'Boathouse to Allied Building'
+  });
+        
+  google.maps.event.addListener(marker, 'click', function() {
+      infowindow.setContent(this.info);
+      infowindow.open(map,this);
+  })
+        
+//set up Info Window for Boathouse
+var contentStringbh = '<div id="infowindow">'+
+      '<h1>Boathouse to Allied Building</h1>'+
+      '<p>This is what you should see heading towards the bridge from glass beach, <img src="http://fuckingdataviz.com/BRC/img/HanoverSpan.jpg" class=large>'+
+      '</div>';
+
+
+var infowindow = new google.maps.InfoWindow({
+      content: contentStringbh,
+    maxWidth: 400
+  });
+
+var marker = new google.maps.Marker({
+      position: Boathouse,
+      map: map,
+      icon: info,
+      info: contentStringbh,
+      title: 'Boathouse to Allied Building'
+  });
+        
+  google.maps.event.addListener(marker, 'click', function() {
+      infowindow.setContent(this.info);
+      infowindow.open(map,this);
+  })
+        
+//set up Info Window for Glass Beach 2
+var contentStringgb2 = '<div id="infowindow">'+
+      '<h1>Beach to Bridge</h1>'+
+      '<p>This is what you should see heading towards the bridge from glass beach, <img src="http://fuckingdataviz.com/BRC/img/greenroof.jpg" class=large>'+
+      '</div>';
+
+
+var infowindow = new google.maps.InfoWindow({
+      content: contentStringgb2,
     maxWidth: 400
 
   });
@@ -148,12 +197,16 @@ var marker = new google.maps.Marker({
       position: GlassBeach2,
       map: map,
       icon: info,
+      info: contentStringgb2,
       title: 'Glass Beach to the Bridge'
   });
         
   google.maps.event.addListener(marker, 'click', function() {
-    infowindow.open(map,marker);
+      infowindow.setContent(this.info);
+      infowindow.open(map,this);
   })
+  
+
         
 }
     
