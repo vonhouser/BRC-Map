@@ -39,3 +39,20 @@
 .row {
     margin: auto;
 }
+
+.large {
+    width: 400;
+    height: 300px;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.infowindow {
+    width: 100px;
+    height: 100px;
+}
