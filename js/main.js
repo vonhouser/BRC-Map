@@ -29,17 +29,12 @@ var bargetwo = new google.maps.LatLng(39.24923, -76.59908);
 var bargethree = new google.maps.LatLng(39.25079, -76.59882);
 
 //inner harbor polylines
-//barge polylines
-var harborone = new google.maps.LatLng(39.27332, -76.57869);
-var harbortwo = new google.maps.LatLng(39.27954, -76.5917);
-var harborthree = new google.maps.LatLng(39.27797, -76.59951);
-var harborfour = new google.maps.LatLng(39.28485, -76.61084);
+var harborone = new google.maps.LatLng(39.2596, -76.57397);
+var harbortwo = new google.maps.LatLng(39.27332, -76.57869);
+var harborthree = new google.maps.LatLng(39.27954, -76.5917);
+var harborfour = new google.maps.LatLng(39.27797, -76.59951);
+var harborfive = new google.maps.LatLng(39.28485, -76.61084);
 
-//inner harbor polylines
-var harborone = new google.maps.LatLng(39.27332, -76.57869);
-var harbortwo = new google.maps.LatLng(39.27954, -76.5917);
-var harborthree = new google.maps.LatLng(39.27797, -76.59951);
-var harborfour = new google.maps.LatLng(39.28485, -76.61084);
 
 //icons for markers
 
@@ -81,6 +76,14 @@ function initialize() {
     });
     
     
+//harbor polylines
+        var harbortrip = [harborhosp, harborone, harbortwo, harborthree, harborfour, harborfive];
+    var HarborPath = new google.maps.Polyline({
+        path: harbortrip,
+        strokeColor: "#FFECB3",
+        strokeOpacity: 0.8,
+        strokeWeight: 2
+    });
     
     
 //create image variables and load them with markers
@@ -149,8 +152,11 @@ function initialize() {
         icon: info,
     });
     marker.setMap(map);
+    
+//display polyline paths
     flightPath.setMap(map);
     BargePath.setMap(map);
+    HarborPath.setMap(map);
 
     //set up Info Window for Green Building Turn
     var contentStringgbt = '<div id="infowindow">' +
