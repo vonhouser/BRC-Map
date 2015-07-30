@@ -1,0 +1,55 @@
+window.onload = function () {
+	var styles = [
+	{
+		featureType: 'water', // set the water color
+		elementType: 'geometry.fill', // apply the color only to the fill
+		stylers: [
+			{ color: '#adc9b8' }
+		]
+	},{
+		featureType: 'landscape.natural', // set the natural landscape
+		elementType: 'all',
+		stylers: [
+			{ hue: '#809f80' },
+			{ lightness: -35 }
+		]
+	}
+	,{
+		featureType: 'poi', // set the point of interest
+		elementType: 'geometry',
+		stylers: [
+			{ hue: '#f9e0b7' },
+			{ lightness: 30 }
+		]
+	},{
+		featureType: 'road', // set the road
+		elementType: 'geometry',
+		stylers: [
+			{ hue: '#d5c18c' },
+			{ lightness: 14 }
+		]
+	},{
+		featureType: 'road.local', // set the local road
+		elementType: 'all',
+		stylers: [
+			{ hue: '#ffd7a6' },
+			{ saturation: 100 },
+			{ lightness: -12 }
+		]
+	}
+];
+
+var options = {
+	mapTypeControlOptions: {
+		mapTypeIds: ['Styled']
+	},
+	center: new google.maps.LatLng(-7.245217594087794, 112.74455556869509),
+	zoom: 16,
+	disableDefaultUI: true,	
+	mapTypeId: 'Styled'
+};
+var div = document.getElementById('surabaya');
+var map = new google.maps.Map(div, options);
+var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
+map.mapTypes.set('Styled', styledMapType);
+}
