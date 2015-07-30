@@ -35,6 +35,22 @@ var harborthree = new google.maps.LatLng(39.27954, -76.5917);
 var harborfour = new google.maps.LatLng(39.27797, -76.59951);
 var harborfive = new google.maps.LatLng(39.28485, -76.61084);
 
+//way back polylines
+var harborsix = new google.maps.LatLng(39.28309, -76.61105);
+var harborseven = new google.maps.LatLng(39.28256, -76.60706);
+var harboreight = new google.maps.LatLng(39.27718, -76.60191);
+var harbornine = new google.maps.LatLng(39.27595, -76.60028);
+var harborten = new google.maps.LatLng(39.27488, -76.59719);
+var harboreleven = new google.maps.LatLng(39.27671, -76.59273);
+var harbortwelve = new google.maps.LatLng(39.27658, -76.5908);
+var harborthirteen = new google.maps.LatLng(39.27478, -76.58603);
+var harborfourteen = new google.maps.LatLng(39.27203, -76.5811);
+var harborfifteen = new google.maps.LatLng(39.27017, -76.57856);
+var harborsixteen = new google.maps.LatLng(39.26259, -76.57668);
+var harborseventeen = new google.maps.LatLng(39.26023, -76.57856);
+var harboreighteen = new google.maps.LatLng(39.2604, -76.59848);
+
+
 
 //icons for markers
 
@@ -60,7 +76,7 @@ function initialize() {
     var myTrip = [boathouse, greenroof, glassone, glasstwo, marina, piers, harborhosp, ferrybar, insidebridge, greenroof];
     var flightPath = new google.maps.Polyline({
         path: myTrip,
-        strokeColor: "#FFECB3",
+        strokeColor: "#9658B1",
         strokeOpacity: 0.8,
         strokeWeight: 2
     });
@@ -70,7 +86,7 @@ function initialize() {
         var BargePath = [harborhosp, bargeone, bargetwo, bargethree, ferrybar];
     var BargePath = new google.maps.Polyline({
         path: BargePath,
-        strokeColor: "#FFECB3",
+        strokeColor: "#AD52A0",
         strokeOpacity: 0.8,
         strokeWeight: 2
     });
@@ -80,7 +96,16 @@ function initialize() {
         var harbortrip = [harborhosp, harborone, harbortwo, harborthree, harborfour, harborfive];
     var HarborPath = new google.maps.Polyline({
         path: harbortrip,
-        strokeColor: "#FFECB3",
+        strokeColor: "#EF9A61",
+        strokeOpacity: 0.8,
+        strokeWeight: 2
+    });
+    
+//harbor return polylines
+        var returntrip = [harborfive, harborsix, harborseven, harboreight, harbornine, harborten, harboreleven, harbortwelve, harborthirteen, harborfourteen, harborfifteen, harborsixteen, harborseventeen, harboreighteen, ferrybar];
+    var ReturnPath = new google.maps.Polyline({
+        path: returntrip,
+        strokeColor: "#EF9A61",
         strokeOpacity: 0.8,
         strokeWeight: 2
     });
@@ -157,6 +182,7 @@ function initialize() {
     flightPath.setMap(map);
     BargePath.setMap(map);
     HarborPath.setMap(map);
+    ReturnPath.setMap(map);
 
     //set up Info Window for Green Building Turn
     var contentStringgbt = '<div id="infowindow">' +
@@ -369,7 +395,7 @@ function StyleMap(map) {
         "elementType": "all",
         "stylers": [
             {
-                "color": "#03A9F4"
+                "color": "#7FBEC7"
             },
             {
                 "visibility": "on"
